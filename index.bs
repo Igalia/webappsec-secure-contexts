@@ -811,7 +811,7 @@ urlPrefix: https://www.w3.org/2017/Process-20170301/; spec: W3C-PROCESS
   <div class="example">
     <ol>
       <li>
-        If the <a>current settings object</a> is <em>not</em> a <a>secure
+        If the <a>current principal settings object</a> is <em>not</em> a <a>secure
         context</a>, then:
 
         <ol>
@@ -881,7 +881,7 @@ urlPrefix: https://www.w3.org/2017/Process-20170301/; spec: W3C-PROCESS
         checks against <a>secure context</a> before executing the algorithms for
         {{getCurrentPosition()}} and {{watchPosition()}}.
 
-        If the <a>current settings object</a> is not a <a>secure context</a>,
+        If the <a>current principal settings object</a> is not a <a>secure context</a>,
         then the algorithm should be aborted, and the `errorCallback`
         invoked with a `code` of `PERMISSION_DENIED`.
 
